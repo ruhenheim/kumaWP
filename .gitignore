@@ -1,0 +1,8 @@
+/wp-config.php
+/index.php
+/.htaccess
+/wp-content/backup-db/*
+!/wp-content/backup-db/.htaccess
+/wp-content/uploads/*
+!.gitignore
+
