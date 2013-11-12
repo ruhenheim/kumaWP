@@ -1,0 +1,40 @@
+/*
+Theme Name:     kumawp
+Author:         tateyama
+Template:       twentythirteen
+*/
+@import url('../twentythirteen/style.css');
+
+/*作者表示*/
+.author-point{
+	color: #fff;
+	background: #73AA7C;
+	padding: 3px;
+	border-radius: 3px;
+}
+.author-list{
+	
+	
+}
+.author-list .name{
+	margin-top: 5px;
+	color: #fff;
+	background: #73AA7C;
+	padding: 3px;
+	border-radius: 3px;
+}
+.author-list .user {
+	margin-top: 20px;
+	width: 100%;
+	background: #F1F1F1;
+	padding: 10px!important;
+}
+.author-list .user a {
+display: block;
+width: 17%;
+float: left;
+margin-right: 10px;
+}
+.author-list .biography{
+	text-align: left;
+}

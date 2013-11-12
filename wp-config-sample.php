@@ -1,6 +1,6 @@
 <?php
 /**
- * The base configurations of the WordPress.
+ * WordPress の基本設定
  *
  * このファイルは、MySQL、テーブル接頭辞、秘密鍵、言語、ABSPATH の設定を含みます。
  * より詳しい情報は {@link http://wpdocs.sourceforge.jp/wp-config.php_%E3%81%AE%E7%B7%A8%E9%9B%86 
@@ -19,7 +19,7 @@
 // (http://wpdocs.sourceforge.jp/Codex:%E8%AB%87%E8%A9%B1%E5%AE%A4 参照)
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
-// ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
+// ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
 define('DB_NAME', 'database_name_here');
 
@@ -32,7 +32,7 @@ define('DB_PASSWORD', 'password_here');
 /** MySQL のホスト名 */
 define('DB_HOST', 'localhost');
 
-/** データベースのテーブルを作成する際のデータベースのキャラクターセット */
+/** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
@@ -70,8 +70,8 @@ $table_prefix  = 'wp_';
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
  *
  * WordPress のローカル言語を設定します。設定した言語に対応する MO ファイルが
- * wp-content/languages にインストールされている必要があります。例えば de_DE.mo を
- * wp-content/languages にインストールし WPLANG を 'de_DE' に設定することでドイツ語がサポートされます。
+ * wp-content/languages にインストールされている必要があります。たとえば de_DE.mo を
+ * wp-content/languages にインストールし WPLANG を 'de_DE' に設定すると、ドイツ語がサポートされます。
  */
 define('WPLANG', 'ja');
 
