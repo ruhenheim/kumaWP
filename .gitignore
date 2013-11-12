@@ -4,5 +4,6 @@
 /wp-content/backup-db/*
 !/wp-content/backup-db/.htaccess
 /wp-content/uploads/*
+/wp-content/plugins/*
 !.gitignore
 
