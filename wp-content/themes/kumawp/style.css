@@ -38,3 +38,6 @@ margin-right: 10px;
 .author-list .biography{
 	text-align: left;
 }
+.author-list img{
+	border-radius: 50px;
+}
